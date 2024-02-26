@@ -1,0 +1,87 @@
+.services-container {
+    max-width: 800px;
+    margin: 50px auto; /* Adjusted margin for centering vertically */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .services-heading h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    
+  }
+  
+  .services-subheading {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 290px;
+    right: 580px;
+  }
+  
+  .service1 {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 90px;
+ 
+}
+
+.service1 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  right:1050px;
+}
+
+.service1 p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 160px;
+  right: 600px;
+ 
+}
+
+.service2 {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.service2 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: -130px;
+  right:1050px;
+}
+
+.service2 p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+  right: 600px;
+}
+
+  .service1 {
+    margin-bottom: 30px; /* Adjusted separation between Service1 and Service2 */
+  }
+  
+  .book-now-button {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 600px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #2980b9;
+  }
+  

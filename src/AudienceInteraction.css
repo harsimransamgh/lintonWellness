@@ -1,0 +1,105 @@
+/* AudienceInteractionPage.css */
+
+.audience-interaction-page {
+  
+    margin: 20px;
+   
+}
+
+.comment-section{
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+.feedback-form{
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; 
+}
+.community-forum {
+   
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px; 
+}
+
+.comment-section {
+  
+    border: 1px solid #ddd;
+}
+
+.feedback-form {
+   
+    border: 1px solid #ddd;
+}
+
+.community-forum {
+    
+    border: 1px solid #ddd;
+}
+
+.audience-interaction-page h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center; 
+}
+
+
+ 
+  
+  
+.comment-section textarea,
+.feedback-form textarea,
+.community-forum textarea {
+ 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comment-section button,
+.feedback-form button,
+.community-forum button {
+   
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-section button:hover,
+.feedback-form button:hover,
+.community-forum button:hover {
+   
+    background-color: #0056b3;
+} */
+
+
+
+
+  
+  /* Optional: Add animations or hover effects to enhance interactivity */
+  .comment-section button,
+  .feedback-form button,
+  .community-forum button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .comment-section button:hover,
+  .feedback-form button:hover,
+  .community-forum button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
