@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
 import logo from './logo rectangle.png';
-import anotherImage from './Image.jpeg'; // Replace with the actual file name and extension
+import Image from './another.png'; // Replace with the actual file name and extension
 
 
 const Home = () => {
@@ -46,8 +46,9 @@ const Home = () => {
         </ul>
         
       </div>
-      
-      <img className="another-image" src={anotherImage} alt="Another Image" />
+      <img className="another-image" src={Image} alt="Another Image" />
+
+
       <div className="text-container"> 
       <h2>Support and 
         Community 

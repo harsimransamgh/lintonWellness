@@ -46,11 +46,11 @@ const Services = () => {
       </div>
 
       <div className="services-container">
-        <h1 className="services-heading">Calm. Happy. Mindful.</h1>
+        <h3 className="services-heading">Calm. Happy. Mindful.</h3>
         <p className="services-subheading">Discover our online classes and workshops</p>
 
         <div className="service1">
-          <h2>Service 1</h2>
+          <h4>Service 1</h4>
           <p>
             Days: Mon - Fri<br />
             Time: 45 min<br />
@@ -60,7 +60,7 @@ const Services = () => {
         </div>
 
         <div className="service2">
-          <h2>Service 2</h2>
+          <h4>Service 2</h4>
           <p>
             Days: Mon - Fri<br />
             Time: 1 hr<br />
